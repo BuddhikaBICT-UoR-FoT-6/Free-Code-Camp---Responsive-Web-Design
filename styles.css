@@ -1,0 +1,98 @@
+/* Main body code */
+body{
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  
+}
+
+/* header code */
+h1{
+  font-size: 2.7em;
+}
+
+p{
+  font-size: 1.3em;
+}
+
+h1, p{
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.header{
+  padding: 0 0.625em;
+  margin-bottom: 1.875em;
+  text-align: center;
+}
+
+.description{
+  font-style: italic;
+  font-weight: 180;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Body positioning code */
+.main {
+  width: auto;
+  margin: 3.125rem auto 0 auto; 
+}
+
+/* Form code */
+form{
+  background: rgba(0, 0, 255, 0.8);
+  padding: 2em 0.5em;
+  border-radius: 0.5em;
+  top: 49%;
+  left: 49%;
+}
+
+.form-sec{
+  margin: 0 auto 1em auto;
+  padding: 0.5em;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  height: 2.375em;
+  border-radius: 0.25em;
+  padding: 0.375em 0.75em;
+  color: #495057;
+  border: 1px solid #ced4da;
+  background-clip: padding-box;
+}
+
+label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+radio{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+checkbox{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+textarea{
+	min-height: 100px;
+	width: 100%;
+}
+
+button{
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+}
